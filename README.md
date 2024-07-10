@@ -1,9 +1,9 @@
 # play with talking tom
 
-- **Description**:
+- **Description**
          Virtual pet simulation game where users interact with a cat named Tom.
 
-- **Features**:
+- **Features**
   -      Feed Tom with options like milk or fish.
   -      Play activities include ball, mud, or toys, affecting Tom's stamina and enjoyment.
   -      Allow Tom to sleep to regain stamina.
@@ -11,12 +11,12 @@
   -      Engage in conversation with Tom, where he responds to basic prompts.
   -      Groom Tom to increase his enjoyment level.
 
-- **Interface**: 
+- **Interface** 
          Command-line based, prompting users to choose actions and interact with Tom.
 
-- **Termination**:
+- **Termination**
          Exit option available to end the game session gracefully.
-### Usage:
+### Usage
 
 To use the project clone the repo
 
