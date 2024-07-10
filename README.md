@@ -1,4 +1,4 @@
-# play with talking tom
+# Play with Talking Tom
 
 - **Description**:
 
