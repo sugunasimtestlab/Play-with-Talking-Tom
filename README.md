@@ -1,7 +1,8 @@
 # play with talking tom
 
-- **Description**
-         Virtual pet simulation game where users interact with a cat named Tom.
+- **Description**:
+
+        Virtual pet simulation game where users interact with a cat named Tom.
 
 - **Features**
   -      Feed Tom with options like milk or fish.
