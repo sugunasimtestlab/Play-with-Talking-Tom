@@ -1,4 +1,3 @@
-# Play-with-Talking-Tom
 # play with talking tom
 
 - **Description**:
