@@ -27,7 +27,7 @@ class Game:
             print(f"{self.name} doesn't have enough stamina to play!")
 
     def eat(self, food_type):
-        if self.food == 0:
+        if self.food > 0:
             print(f"{self.name} is eating {food_type}...")
             self.stamina += 50
             self.food -= 1
@@ -55,3 +55,13 @@ class Game:
         print(f"You are grooming {self.name}...")
         self.enjoyment += 20
         print(f"{self.name} looks happier now!")
+        
+    def take_bath(self):
+        if self.stamina >= 20:
+            print(f"{self.name} is taking a bath!")
+            self.stamina -= 20
+            self.enjoyment += 30
+            print(f"{self.name} looks much cleaner and happier now!")
+        else:
+            print(f"{self.name} doesn't have enough stamina to take a bath!")
+    
