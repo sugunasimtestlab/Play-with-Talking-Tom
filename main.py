@@ -6,10 +6,9 @@ def main():
 
     while True:
         user_input = input(f"Do you want to interact with {my_cat.name}? (yes/no): ").strip().lower()
-
         if user_input == 'yes':
             while True:
-                action = input(f"What do you want to do with {my_cat.name}? (feed/play/nap/check stamina/talk/groom/exit): ").strip().lower()
+                action = input(f"What do you want to do with {my_cat.name}? (feed/play/nap/talk/groom/take bath/exit): ").strip().lower()
 
                 if action == 'feed':
                     food_choice = input(f"What do you want to feed {my_cat.name}? (milk/fish): ").strip().lower()
@@ -22,17 +21,18 @@ def main():
                     my_cat.play(play_choice)
                 elif action == 'nap':
                     my_cat.sleep()
-                elif action == 'check stamina':
-                    my_cat.check_stamina()
                 elif action == 'talk':
                     my_cat.talk()
                 elif action == 'groom':
                     my_cat.groom()
+                elif action == 'take bath':
+                    my_cat.take_bath()
                 elif action == 'exit':
                     print("Exiting the game. Have a nice day!")
                     return
                 else:
                     print("Invalid action. Please choose again.")
+                my_cat.check_stamina()
         elif user_input == 'no':
             print("Goodbye!")
             break
